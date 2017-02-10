@@ -28,11 +28,7 @@ Install and run
 
 ::
 
-   mkvirtualenv .venv
-   source .venv/bin/activate
-   pip install django
-   ./manage.py migrate
-   ./manage.py runserver
+   make serve
 
 
 Requirements

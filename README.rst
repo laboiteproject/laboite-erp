@@ -23,6 +23,17 @@ La Boite ERP is a Django project to handle stock and accounting for the project.
 
 * `Issue tracker <https://github.com/laboiteproject/laboite-erp/issues>`_
 
+Install and run
+---------------
+
+::
+
+   mkvirtualenv .venv
+   source .venv/bin/activate
+   pip install django
+   ./manage.py migrate
+   ./manage.py runserver
+
 
 Requirements
 ------------
